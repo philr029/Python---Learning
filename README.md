@@ -7,15 +7,17 @@ Practice repo for small Python projects.
 | File | What it does |
 | --- | --- |
 | `calculator.py` | Terminal calculator (`+`, `-`, `*`, `/`, `**`, `%`). Type `q` to quit. |
-| `dashboard.py` | Simple menu that can launch the calculator, show progress, and a daily goal. |
+| `dashboard.py` | Menu that launches the calculator, password generator, and number guess game. |
 | `password.py` | Password generator (length + optional symbols). |
+| `guess.py` | Number guessing game (1 to 100, too high / too low). |
 
 ## Run
 
 ```bash
-python3 calculator.py
 python3 dashboard.py
+python3 calculator.py
 python3 password.py
+python3 guess.py
 ```
 
-Python 3 is all you need. No extra packages.
+`dashboard.py` is the menu entry point. Python 3 is all you need. No extra packages.
